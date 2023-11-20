@@ -33,7 +33,7 @@ export function renderPaymentSummary() {
         </div>
 
         <div class="payment-summary-row">
-            <div>Items (${cartQuantity}):</div>
+            <div>Items (${cart.length}):</div>
         <div class="payment-summary-money">&#8377;${productPrice}</div>
         </div>
 
