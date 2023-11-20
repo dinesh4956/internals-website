@@ -1,10 +1,13 @@
-import {cart, cartQuantity} from './cart.js';
+import {cart} from './cart.js';
 import { products } from './products.js';
 import { renderOrderSummary } from './checkout.js';
 
-let productPrice = 0;
-let shippingPrice = 50;
+
 export function renderPaymentSummary() {
+    let productPrice = 0;
+    let shippingPrice = 50;
+
+    
     cart.forEach((cartItem) => {
         const productId = cartItem.productId;
 
