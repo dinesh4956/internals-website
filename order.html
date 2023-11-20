@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Checkout</title>
+</head>
+<body>
+
+    <!-------------------------------------------- HEADER SECTION -->
+    <header class="header" >
+        <a href="./index.html" class="logo">
+            <img src="./image/pngegg.png" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="./about.html">about</a>
+            <a href="./menu.html">menu</a>
+            <a href="./review.html">review</a>
+            <a href="./blog.html">blog</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <a href="./contact.html">
+                <button>
+                    <i class="fas fa-phone"></i>
+                </button>
+            </a>
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+       </div>
+       
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="cart-items-container js-cart-item-container">
+        </div>
+    </header>
+    <!-----------------------------------------------Cart-->
+    
+  
+      <div class="main">
+        <h1 class="order-content-heading">Order Placed Successfully</h1><br/>
+        <p class="order-content"> <span>Thank you for choosing us</span><br/>Your order has been placed successfully! You will receive an email with your Order ID and further instructions on how to track the order.
+      
+            <div class="rating-content"><p class="order-content">Please rate your experience with us</p></div>
+
+            <div class="rating">
+                <input type="radio" id="star-1" name="star-radio" value="star-1">
+                <label for="star-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                </label>
+                <input type="radio" id="star-2" name="star-radio" value="star-1">
+                <label for="star-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                </label>
+                <input type="radio" id="star-3" name="star-radio" value="star-1">
+                <label for="star-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                </label>
+                <input type="radio" id="star-4" name="star-radio" value="star-1">
+                <label for="star-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                </label>
+                <input type="radio" id="star-5" name="star-radio" value="star-1">
+                <label for="star-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+                </label>
+              </div>
+            
+              <div>
+                <a href="index.html" class="btn">return to homepage</a>
+              </div>
+
+    </div>
+   
+
+
+    <!---------------------------------------------FOOTER SECTION -->
+    <section class="footer">
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blog">blog</a>
+        </div>
+        
+    </section>
+    <!---------------------------------------------FOOTER SECTION -->
+
+    <script type="module" src="./scripts/checkout.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
