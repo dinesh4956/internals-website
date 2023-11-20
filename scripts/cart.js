@@ -56,13 +56,6 @@ export function removeFromCart(productId) {
     saveToStorage();
 }
 
-export let cartQuantity = 0;
-cart.forEach((cartItem) =>{
-    cartQuantity+=cartItem.quantity;
-});
-
-
-
 export function cartHoverUpdater() {
     let cartHoverSummaryHTML = '';
         cart.forEach((cartItem) => {
